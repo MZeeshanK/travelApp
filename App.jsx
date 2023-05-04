@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 
 const App = () => {
   return (
-    <NavigationContainer>
+    <NavigationContainer style={{color: '#000'}}>
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen component={Home} name="Home" />
         <Stack.Screen component={AttractionDetails} name="AttractionDetails" />
